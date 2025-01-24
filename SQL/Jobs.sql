@@ -20,4 +20,4 @@ select DISTINCT
                         JOIN R_JOB as T3 ON T2.ID_JOB_COPY_TO = T3.ID_JOB
                         JOIN R_JOB_DATABASE as T4 ON T3.ID_JOB = T4.ID_JOB
                         JOIN R_DATABASE as T5 ON T4.ID_DATABASE = T5.ID_DATABASE
-                        ORDER BY 2, 1
+                        ORDER BY 2, 1;
